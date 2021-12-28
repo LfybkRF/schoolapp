@@ -1,0 +1,90 @@
+*{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.intro{
+    width: 100%;
+    background: linear-gradient(-45deg, #ee7752, #4beb36d5, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    height: 100vh;
+  }
+    
+    @keyframes gradient {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+}
+.container{
+    width: 90%;
+    margin: 0px auto;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+}
+.button{
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: bottom;
+}
+.button:active{
+    animation-name: downbutton;
+    animation-duration: 0.4s;
+}
+@keyframes downbutton {
+    0% {background-color: white;}
+    10% {background-color: rgb(250, 250, 250);}
+    20% {background-color: rgb(245, 245, 245);}
+    30% {background-color: rgb(240, 240, 240);}
+    40% {background-color: rgb(235, 235, 235);}
+    50% {background-color: rgb(230, 230, 230);}
+    60% {background-color: rgb(235, 235, 235);}
+    70% {background-color: rgb(240, 240, 240);}
+    80% {background-color: rgb(245, 245, 245);}
+    90% {background-color: rgb(250, 250, 250);}
+    100% {background-color: white;}
+}
+
+
+
+/* home */
+.home{
+    width: 100%;
+    background-color: #fafafa;
+    background-size: cover;
+
+}
+.description{
+  width: 80%;
+  padding: 12px;
+  margin: 0px auto;
+  background-color: #ffffff;
+  border-radius: 25px;
+}
+
+.level{
+    border-radius: 15px;
+    border-width: 5px;
+    border-style: solid;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.step{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
