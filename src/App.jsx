@@ -14,8 +14,8 @@ const App = () => {
   return (
       <main>
               <Routes>
-                <Route path='/intro' element={<Intro/>}/>
-                <Route path='/' element={<Home/>}/>
+                <Route path='/' element={<Intro/>}/>
+                <Route path='/home' element={<Home/>}/>
                 <Route path='/user' element={<User/>}/>
                 <Route path='/card' element={<Card/>}/>
 

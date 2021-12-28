@@ -41,7 +41,7 @@ const Intro = () => {
           </div>
         </div>
 
-          <Link to='/' style={{width:'100%', height:'40px', textDecoration:'none'}}>
+          <Link to='/home' style={{width:'100%', height:'40px', textDecoration:'none'}}>
             <div style={{marginTop:'10px', width:'100%', height:'40px', padding:'2px'}} className='button' >
               <p style={{margin:'10px'}}>Продолжить</p>
             </div>
