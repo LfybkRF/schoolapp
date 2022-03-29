@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import arrow_left from '../img/arrow_left.svg';
 import CONFIG from '../settings/config';
