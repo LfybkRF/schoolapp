@@ -1,5 +1,5 @@
 const CONFIG = {
-  urlApp: 'http://localhost:3000'
+  urlApp: 'https://goofy-golick-84d6c8.netlify.app'
 }
 
 
