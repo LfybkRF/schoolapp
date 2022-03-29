@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const host = 'http://localhost:5000/'
+const host = 'https://skamoney.ru/';
 
 export const auth = async (login, pass) => {
   try{
